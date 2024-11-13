@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Delius+Swash+Caps&family=Kanit:wght@500&family=Kranky&family=Modak&family=Permanent+Marker&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Kanit:wght@500&family=Modak&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Delius+Swash+Caps&family=Kanit:wght@500&family=Kranky&family=Modak&family=Permanent+Marker&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FBFBFB;
+}
+
+/* Navbar Style */
+.navbar{
+  background-color: #262626;
+}
+
+.btn-nav{
+  background-color: #CFD8DC;
+  color: #262626;
+}
+
+.btn-nav:hover{
+  background-color: #B0BEC5;
+  color: #ffffff;
+}
+
+.nav-link{
+  color: #7986CB;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: cursive;
+}
+
+/* Container Main Style */
+
+.container-main {
+  margin: 0 auto;
+  max-width: 1400px;
+  min-height: 200px;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 10vh;
+}
+
+/* Container data Style */
+
+.container-data{
+  max-width: 1400px; 
+  min-height: 200px;
+  justify-content: center;
+}
+
+.title-container-data{
+  font-family: "Kranky", serif;
+  font-weight: 800;
+  font-size: 35px;
+  font-style: normal;
+  justify-content: center;
+  animation: colorChange 3s ease-in-out infinite;
+}
+
+@keyframes colorChange {
+  0% { color: #B0BEC5;}
+  50% { color: #78909C;}
+  100% { color: #546E7A;}
+}
+
+/* Form Input Style */
+
+.form-input{
+  border-color: #262626;
+}
+
+.form-input:hover{
+  border-color: #B0BEC5;
+}
+
+.form-btn{
+  background-color: #262626;
+  border-color: #262626;
+  color: #B0BEC5;
+}
+
+.form-btn:hover{
+  background-color: #262626;
+  color: #ffffff;
+}
+
+/* Card Information Style */
+
+.card-information{
+  border-radius: .8rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Information Img Style */
+
+.card-information-img{
+  color: #000000;
+  border-top-left-radius: .5rem; 
+  border-bottom-left-radius: .5rem;
+  max-width: 1400px; 
+  min-height: 200px;
+  text-transform: uppercase;
+}
+
+.img-information{
+  max-width: 90%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.img-information:hover {
+  transform: scale(1.1); 
+}
+
+.site-information-img{
+  font-family: "Permanent Marker", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #78909C;
+}
+
+.icon-img{
+  color: #78909C;
+  font-size: 20px
+}
+
+.icon-img:hover{
+  color: #262626;
+}
+
+/* Card Information Style */
+
+.title-information{
+  color: #546E7A;
+  text-align: center;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+}
+
+.hr-information{
+  color: #607D8B;
+}
+
+.subtitle-information{
+  color: #546E7A;
+  text-align: center;
+  font-family: "Anta", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.data-information{
+  color: #78909C;
+  font-weight: 600;
+}
+
+/* Footer Style */
+
+.footer{
+  background-color: #262626;
+}
+
+.copyright{
+  color: #CFD8DC;
+  font-family: cursive;
+  text-align: center;
+}
+
+.copyright-link{
+  color: #B0BEC5;
+  font-weight: 700;
+  text-align: center;
+}
